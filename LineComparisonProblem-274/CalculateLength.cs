@@ -32,4 +32,3 @@ namespace LineComparisonProblem_274
     }
 }
 
-

@@ -16,8 +16,10 @@ namespace LineComparisonProblem_274
             double length_ = length_Two.CalculateTwo();
             if (length.CompareTo(length_) == 0)
                 Console.WriteLine("Both lines are equal ");
+
             else if (length.CompareTo(length_) > 0)
                 Console.WriteLine("Line one is greater");
+
             else
                 Console.WriteLine("Line two is greater");
             Console.ReadLine();
