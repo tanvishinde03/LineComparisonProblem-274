@@ -10,18 +10,26 @@ namespace LineComparisonProblem_274
     {
         static void Main(string[] args)
         {
-            CalculateLength length_One = new CalculateLength(4, 8, 3, 5);
-            double length = length_One.Calculate();
-            CalculateLength length_Two = new CalculateLength(5, 8, 4, 6);
-            double length_ = length_Two.CalculateTwo();
-            if (length.CompareTo(length_) == 0)
-                Console.WriteLine("Both lines are equal ");
+            //CompareLines Length2 = new CompareLines(9, 1, 2, 3);
+            //double _Length = Length2.LineComppare();
 
-            else if (length.CompareTo(length_) > 0)
-                Console.WriteLine("Line one is greater");
+            //CompareLines Length3 = new CompareLines(4, 5, 6, 7);
+            //double Length = Length3.LineComppare();
 
-            else
-                Console.WriteLine("Line two is greater");
+
+            //if (_Length.CompareTo(Length2) == 0)
+
+            //    Console.WriteLine("Equal");
+
+            //else if (Length.CompareTo(Length2) > 0)
+
+            //    Console.WriteLine("Line one is greater");
+            //else
+            //    Console.WriteLine("Line two is greater");
+            //Console.ReadKey();
+
+            CompareMethod line = new CompareMethod();            //UC4
+            line.CompareToAndEqualsTo();
             Console.ReadLine();
         }
     }
